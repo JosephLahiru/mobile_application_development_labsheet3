@@ -7,7 +7,7 @@
     tools:context=".exercise_03_shared_preferences.SignIn">
 
     <EditText
-        android:id="@+id/userNameText3"
+        android:id="@+id/userNameText34"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
@@ -34,7 +34,7 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/userNameText3" />
+        app:layout_constraintTop_toBottomOf="@id/userNameText34" />
 
     <Button
         android:id="@+id/signInBtn"

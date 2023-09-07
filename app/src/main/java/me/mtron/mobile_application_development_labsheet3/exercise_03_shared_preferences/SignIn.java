@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import me.mtron.mobile_application_development_labsheet3.R;
 
@@ -26,7 +25,7 @@ public class SignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        userName = findViewById(R.id.userNameText3);
+        userName = findViewById(R.id.userNameText34);
         password = findViewById(R.id.passwordText4);
         signIn = findViewById(R.id.signInBtn);
 
