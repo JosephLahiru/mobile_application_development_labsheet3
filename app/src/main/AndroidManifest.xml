@@ -15,6 +15,9 @@
             android:name=".example_02.Activity1"
             android:exported="false" />
         <activity
+            android:name=".example_01.Activity2"
+            android:exported="false" />
+        <activity
             android:name=".example_03.Activity1"
             android:exported="false" />
         <activity
