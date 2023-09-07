@@ -55,7 +55,7 @@ public class SignUp extends AppCompatActivity {
                 editor.putString("USERNAME", userName.getText().toString());
                 editor.putString("PASSWORD", password.getText().toString());
                 editor.commit();
-                Toast.makeText(getApplicationContext(), "Data Stored", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "You have signed up successfully!!!", Toast.LENGTH_SHORT).show();
             }
         });
     }
