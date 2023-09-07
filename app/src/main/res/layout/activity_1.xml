@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".example_02.Activity1">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="353dp"
+        android:text="Hello, world!"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
