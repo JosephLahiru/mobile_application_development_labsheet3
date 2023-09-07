@@ -12,6 +12,22 @@
         android:theme="@style/Theme.Mobile_application_development_labsheet3"
         tools:targetApi="31">
         <activity
+            android:name=".LastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.Last"
+            android:exported="false"
+            android:label="@string/title_activity_last" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Main"
+            android:exported="false" />
+        <activity
             android:name=".Activity1"
             android:exported="false" />
         <activity
