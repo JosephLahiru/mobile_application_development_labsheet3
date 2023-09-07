@@ -21,7 +21,7 @@
             android:name=".exercise_03_shared_preferences.SignUp"
             android:exported="false" />
         <activity
-            android:name=".exercise_03_shared_preferences.Main"
+            android:name=".example_01.Activity1"
             android:exported="false" />
         <activity
             android:name=".exercise_01_bundle_object.Activity1"
@@ -42,7 +42,7 @@
             android:name=".example_03.Activity1"
             android:exported="false" />
         <activity
-            android:name=".example_01.Activity1"
+            android:name=".exercise_03_shared_preferences.Main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

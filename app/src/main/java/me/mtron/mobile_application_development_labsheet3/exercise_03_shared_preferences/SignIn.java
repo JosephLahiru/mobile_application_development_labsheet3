@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import me.mtron.mobile_application_development_labsheet3.R;
 
@@ -34,12 +35,16 @@ public class SignIn extends AppCompatActivity {
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SharedPreferences data2 = getSharedPreferences("details", MODE_PRIVATE);
+                SharedPreferences data2 = getSharedPreferences("data", MODE_PRIVATE);
                 String uname = data2.getString("USERNAME", "USERNAME not stored");
                 String pwd = data2.getString("PASSWORD", "PASSWORD not stored");
 
+//                Toast.makeText(SignIn.this, uname + " " + pwd, Toast.LENGTH_SHORT).show();
+
                 if(uname.equals(userName.getText().toString()) && pwd.equals(password.getText().toString())){
                     startActivity(intent);
+                }else{
+                    Toast.makeText(SignIn.this, "Wrong username or password!!!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
