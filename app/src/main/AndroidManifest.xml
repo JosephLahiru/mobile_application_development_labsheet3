@@ -12,29 +12,25 @@
         android:theme="@style/Theme.Mobile_application_development_labsheet3"
         tools:targetApi="31">
         <activity
-            android:name=".LastActivity"
+            android:name=".exercise_03_shared_preferences.LastActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.login.Last"
-            android:exported="false"
-            android:label="@string/title_activity_last" />
-        <activity
-            android:name=".SignIn"
+            android:name=".exercise_03_shared_preferences.SignIn"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".exercise_03_shared_preferences.SignUp"
             android:exported="false" />
         <activity
-            android:name=".Main"
+            android:name=".exercise_03_shared_preferences.Main"
             android:exported="false" />
         <activity
-            android:name=".Activity1"
+            android:name=".exercise_01_bundle_object.Activity1"
             android:exported="false" />
         <activity
-            android:name=".Activity3"
+            android:name=".exercise_01_bundle_object.Activity3"
             android:exported="false" />
         <activity
-            android:name=".Activity2"
+            android:name=".exercise_01_bundle_object.Activity2"
             android:exported="false" />
         <activity
             android:name=".example_02.Activity1"

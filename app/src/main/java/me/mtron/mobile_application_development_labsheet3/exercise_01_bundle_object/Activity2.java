@@ -26,9 +26,9 @@ public class Activity2 extends AppCompatActivity {
         setContentView(R.layout.activity_6);
 
         nameText = findViewById(R.id.nameText1);
-        indexText = findViewById(R.id.indexNumText1);
-        departmentText = findViewById(R.id.departmentText1);
-        facultyText = findViewById(R.id.facultyText1);
+        indexText = findViewById(R.id.cityText1);
+        departmentText = findViewById(R.id.usernameText1);
+        facultyText = findViewById(R.id.passwordText3);
         btnOk = findViewById(R.id.okBtn);
         bundle = new Bundle();
         intent = new Intent(this, Activity3.class);

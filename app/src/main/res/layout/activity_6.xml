@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/indexNumText1"
+        android:id="@+id/cityText1"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@id/nameText1" />
 
     <EditText
-        android:id="@+id/departmentText1"
+        android:id="@+id/usernameText1"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
@@ -49,10 +49,10 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/indexNumText1" />
+        app:layout_constraintTop_toBottomOf="@id/cityText1" />
 
     <EditText
-        android:id="@+id/facultyText1"
+        android:id="@+id/passwordText3"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
@@ -64,7 +64,7 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/departmentText1" />
+        app:layout_constraintTop_toBottomOf="@id/usernameText1" />
 
     <Button
         android:id="@+id/okBtn"
