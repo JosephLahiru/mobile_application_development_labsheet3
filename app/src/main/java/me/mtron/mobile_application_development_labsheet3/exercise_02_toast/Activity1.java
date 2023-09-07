@@ -21,9 +21,9 @@ public class Activity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_8);
 
-        firstName = findViewById(R.id.firstNameText1);
-        lastName = findViewById(R.id.lastNameText1);
-        showBtn = findViewById(R.id.submitBtn);
+        firstName = findViewById(R.id.userNameText34);
+        lastName = findViewById(R.id.passwordText4);
+        showBtn = findViewById(R.id.signInBtn);
 
         showBtn.setOnClickListener(new View.OnClickListener() {
             @Override

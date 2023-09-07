@@ -44,8 +44,8 @@ public class Activity1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 SharedPreferences data2 = getSharedPreferences("details", MODE_PRIVATE);
-                String name = data2.getString("NAME", nameTxt.getText().toString());
-                String town = data2.getString("TOWN", townTxt.getText().toString());
+                String name = data2.getString("NAME", "NAME not stored");
+                String town = data2.getString("TOWN", "TOWN not stored");
                 Toast.makeText(getApplicationContext(), "Your name: " + name + "\nYour town: " + town + "\n", Toast.LENGTH_SHORT).show();
             }
         });

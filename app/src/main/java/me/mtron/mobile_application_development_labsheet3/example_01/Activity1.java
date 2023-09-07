@@ -23,7 +23,7 @@ public class Activity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        login = findViewById(R.id.submitBtn);
+        login = findViewById(R.id.signInBtn);
         name = findViewById(R.id.nameTxt);
         address = findViewById(R.id.addressTxt);
 

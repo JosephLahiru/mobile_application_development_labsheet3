@@ -7,7 +7,7 @@
     tools:context=".exercise_02_toast.Activity1">
 
     <EditText
-        android:id="@+id/firstNameText1"
+        android:id="@+id/userNameText34"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/lastNameText1"
+        android:id="@+id/passwordText4"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="105dp"
@@ -34,10 +34,10 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/firstNameText1" />
+        app:layout_constraintTop_toBottomOf="@id/userNameText34" />
 
     <Button
-        android:id="@+id/submitBtn"
+        android:id="@+id/signInBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="156dp"
