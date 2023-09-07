@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -28,5 +29,17 @@ public class Activity1 extends AppCompatActivity {
 
         check = new Intent(this, Activity2.class);
         bundle = new Bundle();
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                bundle.putString("ADDRESS", address.getText().toString());
+                bundle.putString("NAME", name.getText().toString());
+
+                check.putExtras(bundle);
+
+                startActivity(check);
+            }
+        });
     }
 }
